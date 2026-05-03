@@ -1,0 +1,13 @@
+type = "card"
+title = "教育经历"
+description = "教育背景。"
+
+[[items]]
+icon = "🎓"
+title = "2026.09 - 至今"
+subtitle = "博士，四川大学商学院"
+
+[[items]]
+icon = "📘"
+title = "2023.09 - 2026.06"
+subtitle = "硕士，南京信息工程大学管理工程学院"

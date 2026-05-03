@@ -1,0 +1,83 @@
+[site]
+title = "Yizhao Xu (徐逸钊)"
+description = "Ph.D. student at Sichuan University."
+favicon = "/favicon.svg"
+last_updated = "May 3, 2026"
+
+[author]
+name = "Yizhao Xu"
+title = "Ph.D. Student"
+institution = "Sichuan University"
+avatar = "/picture.jpg"
+
+[social]
+email_user = "xuyz124"
+email_domain = "163.com"
+location = "Chengdu, China"
+location_url = "https://maps.google.com/?q=Chengdu,China"
+location_details = [
+  "Sichuan University,",
+  "Chengdu, China"
+]
+google_scholar = "https://scholar.google.com/citations?user=RgGZaaMAAAAJ&hl=zh-CN&authuser=1"
+researchgate = "https://www.researchgate.net/profile/Yizhao-Xu?ev=hdr_xprf"
+orcid = "https://orcid.org/0009-0007-8109-9522"
+
+[features]
+enable_likes = true
+enable_one_page_mode = false
+
+[i18n]
+enabled = true
+locales = ["zh", "en"]
+default_locale = "en"
+mode = "auto"
+fixed_locale = "en"
+persist = true
+switcher = true
+
+[i18n.labels]
+zh = "中文"
+en = "English"
+
+[[navigation]]
+title = "About me"
+type = "page"
+target = "about"
+href = "/"
+
+[[navigation]]
+title = "News"
+type = "page"
+target = "news"
+href = "/news"
+
+[[navigation]]
+title = "Publications"
+type = "page"
+target = "publications"
+href = "/publications"
+
+[[navigation]]
+title = "Awards"
+type = "page"
+target = "awards"
+href = "/awards"
+
+[[navigation]]
+title = "Educations"
+type = "page"
+target = "educations"
+href = "/educations"
+
+[[navigation]]
+title = "Academic Activities"
+type = "page"
+target = "academic-activities"
+href = "/academic-activities"
+
+[[navigation]]
+title = "CV"
+type = "page"
+target = "cv"
+href = "/cv"

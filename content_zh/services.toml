@@ -1,0 +1,10 @@
+type = "card"
+title = "学术活动"
+description = "参加的学术会议与活动。"
+
+[[items]]
+title = "[02] 2025.05，第六届智能决策与博弈分会学术年会。（中国合肥）"
+
+[[items]]
+title = "[01] 2024.11，第26届中国管理科学学术年会。"
+content = "作题为 *A quantum-linguistic multi-attribute group consensus method based on trust networks* 的口头报告。（中国上海）"

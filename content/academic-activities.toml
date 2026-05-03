@@ -1,0 +1,10 @@
+type = "card"
+title = "Academic Activities"
+description = "Conference participation and academic activities."
+
+[[items]]
+title = "[02] 2025.05, The 6th Academic Annual Conference of the Intelligent Decision and Game Branch. (Hefei, China)"
+
+[[items]]
+title = "[01] 2024.11, The 26th Chinese Academic Annual Conference of Management Science."
+content = "Delivered an oral report entitled *A quantum-linguistic multi-attribute group consensus method based on trust networks*. (Shanghai, China)"

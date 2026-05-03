@@ -1,0 +1,13 @@
+type = "card"
+title = "Educations"
+description = "Educational background."
+
+[[items]]
+icon = "🎓"
+title = "2026.09 - Present"
+subtitle = "Ph.D. student, Business School, Sichuan University"
+
+[[items]]
+icon = "📘"
+title = "2023.09 - 2026.06"
+subtitle = "Master's degree, School of Management Engineering, Nanjing University of Information Science and Technology"

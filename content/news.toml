@@ -1,0 +1,4 @@
+type = "card"
+title = "News"
+description = "Recent updates and academic news."
+items = []

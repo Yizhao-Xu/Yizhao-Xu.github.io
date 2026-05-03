@@ -1,0 +1,64 @@
+[site]
+title = "徐逸钊"
+description = "四川大学博士生个人主页。"
+last_updated = "2026年5月3日"
+
+[author]
+name = "徐逸钊"
+title = "博士生"
+institution = "四川大学"
+
+[social]
+email_user = "xuyz124"
+email_domain = "163.com"
+location = "中国成都"
+location_url = "https://maps.google.com/?q=Chengdu,China"
+location_details = [
+  "四川大学，",
+  "中国成都"
+]
+google_scholar = "https://scholar.google.com/citations?user=RgGZaaMAAAAJ&hl=zh-CN&authuser=1"
+researchgate = "https://www.researchgate.net/profile/Yizhao-Xu?ev=hdr_xprf"
+orcid = "https://orcid.org/0009-0007-8109-9522"
+
+[[navigation]]
+title = "关于我"
+type = "page"
+target = "about"
+href = "/"
+
+[[navigation]]
+title = "动态"
+type = "page"
+target = "news"
+href = "/news"
+
+[[navigation]]
+title = "论文"
+type = "page"
+target = "publications"
+href = "/publications"
+
+[[navigation]]
+title = "奖项"
+type = "page"
+target = "awards"
+href = "/awards"
+
+[[navigation]]
+title = "教育经历"
+type = "page"
+target = "educations"
+href = "/educations"
+
+[[navigation]]
+title = "学术活动"
+type = "page"
+target = "academic-activities"
+href = "/academic-activities"
+
+[[navigation]]
+title = "简历"
+type = "page"
+target = "cv"
+href = "/cv"

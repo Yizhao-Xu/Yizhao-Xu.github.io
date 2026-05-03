@@ -1,0 +1,21 @@
+type = "card"
+title = "Awards"
+description = "Honors and awards I have received."
+
+[[items]]
+title = "Graduate National Scholarship"
+subtitle = "Ministry of Education of China"
+date = "2025"
+content = "Awarded for outstanding academic performance and research achievements during graduate study."
+
+[[items]]
+title = "President Scholarship"
+subtitle = "Nanjing University of Information Science and Technology"
+date = "2025"
+content = "University-level scholarship recognizing academic excellence and comprehensive performance."
+
+[[items]]
+title = "First-Class Academic Scholarship"
+subtitle = "Nanjing University of Information Science and Technology"
+date = "2025"
+content = "Awarded for excellent academic performance in graduate study."
