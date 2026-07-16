@@ -1,4 +1,11 @@
 type = "card"
 title = "动态"
 description = "近期学术动态与个人更新。"
-items = []
+
+[[items]]
+title = "2026.05"
+content = "录取为四川大学博士研究生。"
+
+[[items]]
+title = "2026.02"
+content = "IEEE SMC 论文 *Quantum Group Decision Making Method With Linguistic Z-Numbers Based on Trust Network* 被 *IEEE Transactions on Systems, Man, and Cybernetics: Systems* 录用。"

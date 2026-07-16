@@ -11,6 +11,10 @@ interface SelectedPublicationsProps {
     enableOnePageMode?: boolean;
 }
 
+function stripDisplayNumber(title: string): string {
+    return title.replace(/^\[\d+\]\s*/, '');
+}
+
 export default function SelectedPublications({ publications, title, enableOnePageMode = false }: SelectedPublicationsProps) {
     const messages = useMessages();
     const resolvedTitle = title || messages.home.selectedPublications;
@@ -41,7 +45,7 @@ export default function SelectedPublications({ publications, title, enableOnePag
                         className="bg-neutral-50 dark:bg-neutral-800 p-4 rounded-lg shadow-sm border border-neutral-200 dark:border-[rgba(148,163,184,0.24)] hover:shadow-lg transition-all duration-200 hover:scale-[1.02]"
                     >
                         <h3 className="font-semibold text-primary mb-2 leading-tight">
-                            {pub.title}
+                            {stripDisplayNumber(pub.title)}
                         </h3>
                         <p className="text-sm text-neutral-600 dark:text-neutral-500 mb-1">
                             {pub.authors.map((author, idx) => (
@@ -58,7 +62,7 @@ export default function SelectedPublications({ publications, title, enableOnePag
                         </p>
                         <p className="text-sm text-neutral-600 dark:text-neutral-500 mb-2">
                             <em>
-                            {pub.journal || pub.conference}
+                            {[pub.year, pub.journal || pub.conference].filter(Boolean).join(', ')}
                             </em>
                         </p>
                         {pub.metrics && pub.metrics.length > 0 && (

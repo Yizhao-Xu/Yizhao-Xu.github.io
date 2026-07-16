@@ -3,6 +3,18 @@ title = "奖项"
 description = "获得的荣誉与奖励。"
 
 [[items]]
+title = "青年五四标兵"
+subtitle = "南京信息工程大学"
+date = "2026"
+content = "全校 10 个名额的青年荣誉。"
+
+[[items]]
+title = "毕业生优秀奖学金"
+subtitle = "南京信息工程大学"
+date = "2026"
+content = "因毕业阶段优秀的综合表现获得。"
+
+[[items]]
 title = "研究生国家奖学金"
 subtitle = "中华人民共和国教育部"
 date = "2025"

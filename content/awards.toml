@@ -3,6 +3,18 @@ title = "Awards"
 description = "Honors and awards I have received."
 
 [[items]]
+title = "May Fourth Youth Pacesetter"
+subtitle = "Nanjing University of Information Science and Technology"
+date = "2026"
+content = "University-wide youth honor with 10 recipients."
+
+[[items]]
+title = "Outstanding Graduate Scholarship"
+subtitle = "Nanjing University of Information Science and Technology"
+date = "2026"
+content = "Awarded for outstanding performance at graduation."
+
+[[items]]
 title = "Graduate National Scholarship"
 subtitle = "Ministry of Education of China"
 date = "2025"

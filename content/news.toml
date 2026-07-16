@@ -1,4 +1,11 @@
 type = "card"
 title = "News"
 description = "Recent updates and academic news."
-items = []
+
+[[items]]
+title = "2026.05"
+content = "Admitted as a Ph.D. student at Sichuan University."
+
+[[items]]
+title = "2026.02"
+content = "Our paper *Quantum Group Decision Making Method With Linguistic Z-Numbers Based on Trust Network* was accepted by *IEEE Transactions on Systems, Man, and Cybernetics: Systems*."
